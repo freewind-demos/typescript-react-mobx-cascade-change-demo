@@ -34,6 +34,7 @@ export const Hello: FC<Props> = observer(({counter}: Props) => {
     <div>
       <div>Value1: {counter.selectedValue1}</div>
       <div>Value2: {counter.selectedValue2}</div>
+      <div>Value3: {counter.selectedValue3}</div>
     </div>
   </div>
 })
